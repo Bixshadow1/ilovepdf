@@ -32,15 +32,15 @@ Some of the main features are:
 ◍ `Convert PDF to images`
 ◍ `Convert files to pdf`
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 🤩
+Admin B: @zehnlibot 
+Bots Collection: @mening_botlarim
 
-Join @nabiIanavab, for bot updates ♥️
+Join @mening_botlarim, for bot updates ♥️
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/zehnlibot)
 '''
 		key = types.InlineKeyboardMarkup()
-		key.add(types.InlineKeyboardButton("Source Code ❤️", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
+		key.add(types.InlineKeyboardButton("Ads ❤️", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
 		bot.send_message(message.chat.id, strtMsg, disable_web_page_preview=True, reply_markup=key)
 	
 	except:
@@ -55,15 +55,13 @@ def strtMsgEdt(call):
 		try:
 			aboutDev = f'''About Dev:
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 😇
+Admin: @zehnlibot
+Update Channel: @mening_botlarim 😇
 
-Lang Used: Python🐍
-[Source Code](https://github.com/nabilanavab/ilovepdf)
 
-Join @nabiIanavab , if you ❤ this 
+Join @mening_botlarim , if you ❤ this 
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/zehnlibot)
 '''
 			key = types.InlineKeyboardMarkup()
 			key.add(types.InlineKeyboardButton("🔙 Home 🏡", callback_data="back"))
@@ -91,7 +89,7 @@ Images to pdf :
 	- `/generate fileName` - to change pdf name to fileName🤞
 	- `/generate name` - to get pdf with your telegram name
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)'''
+[Write a feedback 📋](https://t.me/zehnlibot)'''
 			key = types.InlineKeyboardMarkup()
 			key.add(types.InlineKeyboardButton("🔙 Home 🏡", callback_data="back"),types.InlineKeyboardButton("PDF to images ➡️", callback_data="pdfToImgsEdit"))
 			bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text = expMsg, disable_web_page_preview=True, reply_markup=key)
@@ -115,7 +113,7 @@ PDF to images:
 
 if you need to convert 10mb+ you can create your own bot.. Source code is mentioned in bio 😇
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)'''
+[Write a feedback 📋](https://t.me/zehnlibot)'''
 			key = types.InlineKeyboardMarkup()
 			key.add(types.InlineKeyboardButton("🔙 Imgs To Pdf", callback_data="imgsToPdfEdit"),types.InlineKeyboardButton("Home 🏡", callback_data="back"),types.InlineKeyboardButton("file to Pdf ➡️", callback_data="filsToPdfEdit"))
 			bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text = expMsg, disable_web_page_preview=True, reply_markup=key)
@@ -139,7 +137,7 @@ Files to PDF:
 
 if you need to convert 10mb+ you can create your own bot.. Source code is mentioned in bio 😇
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)'''
+[Write a feedback 📋](https://t.me/zehnlibot)'''
 			key = types.InlineKeyboardMarkup()
 			key.add(types.InlineKeyboardButton("🔙 PDF to imgs", callback_data="imgsToPdfEdit"),types.InlineKeyboardButton("Home 🏡", callback_data="back"),types.InlineKeyboardButton("WARNING ⚠️", callback_data="warningEdit"))
 			bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text = expMsg, disable_web_page_preview=True, reply_markup=key)
@@ -159,7 +157,7 @@ WARNING MESSAGE ⚠️:
 
 IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTACT @nabilanavab
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/zehnlibot)
 '''
 			key = types.InlineKeyboardMarkup()
 			key.add(types.InlineKeyboardButton("🔙 WARNING ⚠️", callback_data="warningEdit"),types.InlineKeyboardButton("Home 🏡", callback_data="back"))
@@ -179,15 +177,15 @@ Some of the main features are:
 ◍ `Convert PDF to images`
 ◍ `Convert files to pdf`
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 🤩
+OwNeD By: @zehnlibot 😜
+Update Channel: @mening_botlarim 🤩
 
-Join @nabiIanavab, if you ♥️ this bot
+Join @mening_botlarim, if you ♥️ this bot
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/zehnlibot)
 '''
 			key = types.InlineKeyboardMarkup()
-			key.add(types.InlineKeyboardButton("Source Code ❤️", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
+			key.add(types.InlineKeyboardButton("Ads ❤️", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
 			bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text = strtMsg, disable_web_page_preview=True, reply_markup=key)
 		
 		except:
