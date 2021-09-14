@@ -33,9 +33,9 @@ Some of the main features are:
 ◍ `Convert files to pdf`
 
 Admin B: @zehnlibot 
-Bots Collection: @mening_botlarim
+Bots Collection: @Bixuz
 
-Join @mening_botlarim, for bot updates ♥️
+Join @bixuz, for bot updates ♥️
 
 [Write a feedback 📋](https://t.me/zehnlibot)
 '''
@@ -56,10 +56,10 @@ def strtMsgEdt(call):
 			aboutDev = f'''About Dev:
 
 Admin: @zehnlibot
-Update Channel: @mening_botlarim 😇
+Update Channel: @bixuz 😇
 
 
-Join @mening_botlarim , if you ❤ this 
+Join @bixuz , if you ❤ this 
 
 [Write a feedback 📋](https://t.me/zehnlibot)
 '''
@@ -111,7 +111,6 @@ PDF to images:
 
 ⚠️ Due to overload this bot will only convert files less than 10mb files..⚠️
 
-if you need to convert 10mb+ you can create your own bot.. Source code is mentioned in bio 😇
 
 [Write a feedback 📋](https://t.me/zehnlibot)'''
 			key = types.InlineKeyboardMarkup()
@@ -178,9 +177,9 @@ Some of the main features are:
 ◍ `Convert files to pdf`
 
 OwNeD By: @zehnlibot 😜
-Update Channel: @mening_botlarim 🤩
+Update Channel: @bixuz 🤩
 
-Join @mening_botlarim, if you ♥️ this bot
+Join @bixuz, if you ♥️ this bot
 
 [Write a feedback 📋](https://t.me/zehnlibot)
 '''
@@ -217,7 +216,7 @@ Help message:
 
  ◍ Then Use `Explore more 🥳` button for more help 🙏🥴
  
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/mening_botlarim)
 '''
 		key = types.InlineKeyboardMarkup()
 		key.add(types.InlineKeyboardButton("Close ⌛", callback_data="close"))
@@ -230,7 +229,7 @@ Help message:
 def feedback(message):
 	bot.send_chat_action(message.chat.id, "typing")
 	feedbackMsg = f'''
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Write a feedback 📋](https://t.me/mening_botlarim)
 '''
 	bot.send_message(message.chat.id, feedbackMsg, disable_web_page_preview=True)
 
@@ -312,7 +311,7 @@ def fls(message):
 				bot.delete_message(chat_id = message.chat.id, message_id = picMsgId.message_id)
 				bot.delete_message(chat_id = message.chat.id, message_id = message.message_id)
 			
-		elif fileExt.lower() == '.pdf' and fileSize <= 10000000:
+		elif fileExt.lower() == '.pdf' and fileSize <= 20000000:
 			
 			try:
 				bot.send_chat_action(message.chat.id, "typing")
@@ -402,7 +401,7 @@ def fls(message):
 				except:
 					pass
 		
-		elif fileExt not in suprtedFile and fileSize <= 10000000:
+		elif fileExt not in suprtedFile and fileSize <= 20000000:
 			
 			try:
 				
